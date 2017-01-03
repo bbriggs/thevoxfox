@@ -4,10 +4,10 @@ import configparser
 from Legobot.Lego import Lego
 from Legobot.Connectors.IRC import IRC
 from Legobot.Legos.Help import Help
+from legos.wtf import WikipediaTopFinder
 from Local.Roll import Roll
 from Local.Msync import Audit
 from Local.Puppet3 import Puppet3
-from Local.WikipediaTopFinder import WikipediaTopFinder
 from Local.Factoids import Factoids
 from Local.lmgtfy import lmgtfy
 
