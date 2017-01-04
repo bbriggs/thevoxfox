@@ -8,6 +8,7 @@ from legos.wtf import WikipediaTopFinder
 from Local.Msync import Audit
 from Local.Puppet3 import Puppet3
 from Local.Factoids import Factoids
+from legos.devopsy import Devopsy
 
 config = configparser.ConfigParser()
 config.read('config.ini')
@@ -41,3 +42,4 @@ baseplate_proxy.add_child(Audit)
 baseplate_proxy.add_child(Puppet3)
 baseplate_proxy.add_child(WikipediaTopFinder)
 baseplate_proxy.add_child(Factoids)
+baseplate_proxy.add_child(Devopsy)
